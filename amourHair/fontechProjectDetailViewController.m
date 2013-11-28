@@ -26,6 +26,7 @@
 - (id)init {
     if (self) {
         self = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"fontechProjectDetailViewController"];
+        self.title = @"長髮";
 
     }
     return self;

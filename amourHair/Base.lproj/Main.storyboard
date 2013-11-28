@@ -17,34 +17,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zhg-ve-WU7">
-                                <rect key="frame" x="20" y="158" width="280" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the first view controller — an instance of fontechFirstViewController — specified in the app delegate." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tZ3-Hv-Q7E">
-                                <rect key="frame" x="20" y="240" width="280" height="88"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="rDj-Sg-2Zj"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5LH-Jk-Vqp">
+                                <rect key="frame" x="10" y="74" width="300" height="215"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="awq-Ru-RL3">
+                                <rect key="frame" x="25" y="309" width="265" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daW-6q-tPR">
+                                <rect key="frame" x="290" y="84" width="10" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="fb.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="tZ3-Hv-Q7E" secondAttribute="trailing" constant="20" symbolic="YES" id="94m-GQ-azi"/>
-                            <constraint firstItem="tZ3-Hv-Q7E" firstAttribute="top" secondItem="Zhg-ve-WU7" secondAttribute="bottom" constant="40" id="G3o-MK-III"/>
-                            <constraint firstItem="Zhg-ve-WU7" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="20" symbolic="YES" id="JQj-gp-vk2"/>
-                            <constraint firstAttribute="trailing" secondItem="Zhg-ve-WU7" secondAttribute="trailing" constant="20" symbolic="YES" id="eHs-J5-0HT"/>
-                            <constraint firstItem="tZ3-Hv-Q7E" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" constant="20" symbolic="YES" id="lKy-m9-LcB"/>
-                            <constraint firstAttribute="centerY" secondItem="tZ3-Hv-Q7E" secondAttribute="centerY" id="xLM-BA-nZb"/>
-                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="heart.png" id="u1e-5L-l1D"/>
-                    <navigationItem key="navigationItem" id="AFb-n7-aMx"/>
+                    <tabBarItem key="tabBarItem" title="First" image="photos_polaroid.png" id="u1e-5L-l1D"/>
+                    <navigationItem key="navigationItem" title="A'mour Hair Salon" id="AFb-n7-aMx"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1225" y="-200"/>
@@ -53,7 +49,7 @@
         <scene sceneID="l04-lf-1aT">
             <objects>
                 <navigationController definesPresentationContext="YES" id="6SS-vt-Y7b" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="dB7-Ba-6hQ"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="people_.png" id="dB7-Ba-6hQ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BQh-ri-UJH">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -65,11 +61,11 @@
             </objects>
             <point key="canvasLocation" x="653" y="512"/>
         </scene>
-        <!--Table View Controller - Root View Controller-->
+        <!--Fontech Projects View Controller - 作品集-->
         <scene sceneID="gWX-Xa-JVI">
             <objects>
-                <tableViewController id="TZY-8V-xlb" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="pSU-dT-ofJ">
+                <tableViewController id="TZY-8V-xlb" customClass="fontechProjectsViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="pSU-dT-ofJ" customClass="fontecj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -84,7 +80,7 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="KNr-OZ-8Fl"/>
+                    <navigationItem key="navigationItem" title="作品集" id="KNr-OZ-8Fl"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e9c-3P-f3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -94,7 +90,7 @@
         <scene sceneID="2m4-vS-pLy">
             <objects>
                 <navigationController definesPresentationContext="YES" id="jHC-qy-eQ2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="q3k-wc-bG9"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="heart.png" id="q3k-wc-bG9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="B4A-Ua-2b6">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -146,7 +142,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="people_.png" id="Z7h-1E-pvt"/>
-                    <navigationItem key="navigationItem" id="XW3-X0-cGK"/>
+                    <navigationItem key="navigationItem" title="個人資料" id="XW3-X0-cGK"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1225" y="518"/>
@@ -155,7 +151,7 @@
         <scene sceneID="IhT-xp-NJO">
             <objects>
                 <navigationController definesPresentationContext="YES" id="0KW-Cv-tqe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="8k7-OF-iXb"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="photos_polaroid.png" id="8k7-OF-iXb"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SZE-7o-ssx">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -189,8 +185,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="fb.png" width="30" height="30"/>
         <image name="heart.png" width="26" height="26"/>
         <image name="people_.png" width="26" height="26"/>
+        <image name="photos_polaroid.png" width="26" height="26"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

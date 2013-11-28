@@ -22,6 +22,9 @@
 		9FA7FD221846E98F00A1FA9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA7FD011846E98F00A1FA9E /* UIKit.framework */; };
 		9FA7FD2A1846E98F00A1FA9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD281846E98F00A1FA9E /* InfoPlist.strings */; };
 		9FA7FD2C1846E98F00A1FA9E /* amourHairTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7FD2B1846E98F00A1FA9E /* amourHairTests.m */; };
+		9FA7FD381846EAA600A1FA9E /* people_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD351846EAA600A1FA9E /* people_@2x.png */; };
+		9FA7FD391846EAA600A1FA9E /* photos_polaroid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD361846EAA600A1FA9E /* photos_polaroid@2x.png */; };
+		9FA7FD3A1846EAA600A1FA9E /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD371846EAA600A1FA9E /* heart@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		9FA7FD271846E98F00A1FA9E /* amourHairTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "amourHairTests-Info.plist"; sourceTree = "<group>"; };
 		9FA7FD291846E98F00A1FA9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FA7FD2B1846E98F00A1FA9E /* amourHairTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amourHairTests.m; sourceTree = "<group>"; };
+		9FA7FD351846EAA600A1FA9E /* people_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "people_@2x.png"; sourceTree = "<group>"; };
+		9FA7FD361846EAA600A1FA9E /* photos_polaroid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos_polaroid@2x.png"; sourceTree = "<group>"; };
+		9FA7FD371846EAA600A1FA9E /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		9FA7FCF11846E98F00A1FA9E = {
 			isa = PBXGroup;
 			children = (
+				9FA7FD3B1846EAAA00A1FA9E /* images */,
 				9FA7FD031846E98F00A1FA9E /* amourHair */,
 				9FA7FD251846E98F00A1FA9E /* amourHairTests */,
 				9FA7FCFC1846E98F00A1FA9E /* Frameworks */,
@@ -155,6 +162,16 @@
 				9FA7FD281846E98F00A1FA9E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FA7FD3B1846EAAA00A1FA9E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9FA7FD351846EAA600A1FA9E /* people_@2x.png */,
+				9FA7FD361846EAA600A1FA9E /* photos_polaroid@2x.png */,
+				9FA7FD371846EAA600A1FA9E /* heart@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FA7FD191846E98F00A1FA9E /* Images.xcassets in Resources */,
+				9FA7FD391846EAA600A1FA9E /* photos_polaroid@2x.png in Resources */,
 				9FA7FD081846E98F00A1FA9E /* InfoPlist.strings in Resources */,
+				9FA7FD3A1846EAA600A1FA9E /* heart@2x.png in Resources */,
 				9FA7FD111846E98F00A1FA9E /* Main.storyboard in Resources */,
+				9FA7FD381846EAA600A1FA9E /* people_@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

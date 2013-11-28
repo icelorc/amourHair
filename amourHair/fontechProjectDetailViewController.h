@@ -1,5 +1,5 @@
 //
-//  fontechProjectsViewController.h
+//  fontechProjectDetailViewController.h
 //  amourHair
 //
 //  Created by Robert Huang on 11/28/13.
@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "fontechProjectDetailViewController.h"
 
-@interface fontechProjectsViewController : UITableViewController
+@interface fontechProjectDetailViewController : UIViewController
 
 @end

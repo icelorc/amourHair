@@ -78,8 +78,9 @@
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(97, 15, 40, 10)];
     label.font = [UIFont fontWithName:@"Helvetica" size:12];
     label.text = @"長髮";
-    UITextView *textView = [[UITextView alloc] initWithFrame:CGRectMake(97, 27, 190, 35)];
-    textView.text = @"一對一直想要有孩子的夫婦住在一個巫婆所擁有被圍牆所圍起來的花園旁邊。有一天，懷孕的妻子注意到隔壁的花園裡種了一些萵苣（在某些版本中被稱作rapunzel或blue radishes）。妻子便極度渴望能夠吃到這種窩萵苣，於是丈夫便連續兩個夜晚闖進巫婆的花園裡為妻子偷摘了一些。但在第三個晚上丈夫偷摘萵苣後正要爬牆回家時，巫婆出現並指責丈夫的偷竊行為。";
+    UITextView *textView = [[UITextView alloc] initWithFrame:CGRectMake(97, 27, 190, 42)];
+    textView.text = @"一對一直想要有孩子的夫婦住在一個巫婆所擁有被圍牆所圍起來的花園旁邊。有一天，懷孕的妻子注意到隔壁的花園裡種了";
+    textView.editable = NO;
      textView.font = [UIFont fontWithName:@"Helvetica" size:10];
     
     
@@ -91,6 +92,15 @@
     
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    fontechProjectDetailViewController *detailViewController = [[fontechProjectDetailViewController alloc] init];
+    [self.navigationController pushViewController:detailViewController animated:YES];
+
+}
+
+
 
 /*
 // Override to support conditional editing of the table view.

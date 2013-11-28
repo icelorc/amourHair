@@ -34,6 +34,7 @@
 		9FA7FD4F18470AC100A1FA9E /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD4E18470AC100A1FA9E /* arrow.png */; };
 		9FA7FD5118470B1E00A1FA9E /* hair1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD5018470B1E00A1FA9E /* hair1.png */; };
 		9FA7FD5318470E4300A1FA9E /* pyramid_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD5218470E4300A1FA9E /* pyramid_background.png */; };
+		9FA7FD561847167300A1FA9E /* fontechProjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7FD551847167300A1FA9E /* fontechProjectDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		9FA7FD4E18470AC100A1FA9E /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		9FA7FD5018470B1E00A1FA9E /* hair1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hair1.png; sourceTree = "<group>"; };
 		9FA7FD5218470E4300A1FA9E /* pyramid_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pyramid_background.png; sourceTree = "<group>"; };
+		9FA7FD541847167300A1FA9E /* fontechProjectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontechProjectDetailViewController.h; sourceTree = "<group>"; };
+		9FA7FD551847167300A1FA9E /* fontechProjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontechProjectDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 			children = (
 				9FA7FD411846EF0400A1FA9E /* fontechProjectsViewController.h */,
 				9FA7FD421846EF0400A1FA9E /* fontechProjectsViewController.m */,
+				9FA7FD541847167300A1FA9E /* fontechProjectDetailViewController.h */,
+				9FA7FD551847167300A1FA9E /* fontechProjectDetailViewController.m */,
 				9FA7FD0C1846E98F00A1FA9E /* fontechAppDelegate.h */,
 				9FA7FD0D1846E98F00A1FA9E /* fontechAppDelegate.m */,
 				9FA7FD0F1846E98F00A1FA9E /* Main.storyboard */,
@@ -315,6 +320,7 @@
 				9FA7FD431846EF0400A1FA9E /* fontechProjectsViewController.m in Sources */,
 				9FA7FD141846E98F00A1FA9E /* fontechFirstViewController.m in Sources */,
 				9FA7FD0E1846E98F00A1FA9E /* fontechAppDelegate.m in Sources */,
+				9FA7FD561847167300A1FA9E /* fontechProjectDetailViewController.m in Sources */,
 				9FA7FD171846E98F00A1FA9E /* fontechSecondViewController.m in Sources */,
 				9FA7FD0A1846E98F00A1FA9E /* main.m in Sources */,
 			);

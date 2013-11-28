@@ -33,6 +33,7 @@
 		9FA7FD4D1847061400A1FA9E /* designer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD4C1847061400A1FA9E /* designer.png */; };
 		9FA7FD4F18470AC100A1FA9E /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD4E18470AC100A1FA9E /* arrow.png */; };
 		9FA7FD5118470B1E00A1FA9E /* hair1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD5018470B1E00A1FA9E /* hair1.png */; };
+		9FA7FD5318470E4300A1FA9E /* pyramid_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD5218470E4300A1FA9E /* pyramid_background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		9FA7FD4C1847061400A1FA9E /* designer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = designer.png; sourceTree = "<group>"; };
 		9FA7FD4E18470AC100A1FA9E /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		9FA7FD5018470B1E00A1FA9E /* hair1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hair1.png; sourceTree = "<group>"; };
+		9FA7FD5218470E4300A1FA9E /* pyramid_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pyramid_background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 		9FA7FD3B1846EAAA00A1FA9E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9FA7FD5218470E4300A1FA9E /* pyramid_background.png */,
 				9FA7FD441846F7AB00A1FA9E /* fb.png */,
 				9FA7FD351846EAA600A1FA9E /* people_@2x.png */,
 				9FA7FD3F1846EE2A00A1FA9E /* brief_case@2x.png */,
@@ -283,6 +286,7 @@
 				9FA7FD451846F7AC00A1FA9E /* fb.png in Resources */,
 				9FA7FD391846EAA600A1FA9E /* photos_polaroid@2x.png in Resources */,
 				9FA7FD081846E98F00A1FA9E /* InfoPlist.strings in Resources */,
+				9FA7FD5318470E4300A1FA9E /* pyramid_background.png in Resources */,
 				9FA7FD3A1846EAA600A1FA9E /* heart@2x.png in Resources */,
 				9FA7FD5118470B1E00A1FA9E /* hair1.png in Resources */,
 				9FA7FD4F18470AC100A1FA9E /* arrow.png in Resources */,

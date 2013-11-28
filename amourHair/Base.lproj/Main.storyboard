@@ -17,6 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pyramid_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="xp6-5e-U6z">
+                                <rect key="frame" x="0.0" y="64" width="320" height="454"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="store.png" translatesAutoresizingMaskIntoConstraints="NO" id="5LH-Jk-Vqp">
                                 <rect key="frame" x="10" y="74" width="300" height="215"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +28,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="awq-Ru-RL3">
                                 <rect key="frame" x="25" y="309" width="265" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <mutableString key="text">A'mour Hair Salon位於公館，我們雖不起眼，但是絕對有誠意。我們不自誇，不說嘴。堅持用平價卻精緻的質感帶給每個人最獨特的美麗。  
 Description
 價目表:洗髮200。剪髮400優惠價300。燙:1500起。染:1500起。護:400起。
@@ -125,6 +128,10 @@ General Information
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pyramid_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="ALq-Ru-2kC">
+                                <rect key="frame" x="0.0" y="64" width="320" height="458"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cover.png" translatesAutoresizingMaskIntoConstraints="NO" id="jes-cc-f5y">
                                 <rect key="frame" x="0.0" y="64" width="320" height="182"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,7 +157,6 @@ General Information
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="設計師個人簡介： 美髮資歷：七年以上 外景時期擔任多位藝人髮型造型及整體彩妝。秉持著任何人都可以有型！找出最適合你的風格髮型打造你帥氣的一面。 Mobile：0917035068 cwainegp@hotmail.com" translatesAutoresizingMaskIntoConstraints="NO" id="5vo-Bj-9gz">
                                 <rect key="frame" x="25" y="326" width="265" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -207,6 +213,7 @@ General Information
         <image name="heart.png" width="26" height="26"/>
         <image name="people_.png" width="26" height="26"/>
         <image name="photos_polaroid.png" width="26" height="26"/>
+        <image name="pyramid_background.png" width="640" height="1136"/>
         <image name="store.png" width="600" height="430"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

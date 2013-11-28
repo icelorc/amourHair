@@ -25,7 +25,8 @@
 		9FA7FD381846EAA600A1FA9E /* people_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD351846EAA600A1FA9E /* people_@2x.png */; };
 		9FA7FD391846EAA600A1FA9E /* photos_polaroid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD361846EAA600A1FA9E /* photos_polaroid@2x.png */; };
 		9FA7FD3A1846EAA600A1FA9E /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD371846EAA600A1FA9E /* heart@2x.png */; };
-		9FA7FD3E1846EC6600A1FA9E /* fontechProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7FD3D1846EC6600A1FA9E /* fontechProjectsViewController.m */; };
+		9FA7FD401846EE2A00A1FA9E /* brief_case@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD3F1846EE2A00A1FA9E /* brief_case@2x.png */; };
+		9FA7FD431846EF0400A1FA9E /* fontechProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7FD421846EF0400A1FA9E /* fontechProjectsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +64,9 @@
 		9FA7FD351846EAA600A1FA9E /* people_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "people_@2x.png"; sourceTree = "<group>"; };
 		9FA7FD361846EAA600A1FA9E /* photos_polaroid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos_polaroid@2x.png"; sourceTree = "<group>"; };
 		9FA7FD371846EAA600A1FA9E /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
-		9FA7FD3C1846EC6600A1FA9E /* fontechProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontechProjectsViewController.h; sourceTree = "<group>"; };
-		9FA7FD3D1846EC6600A1FA9E /* fontechProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontechProjectsViewController.m; sourceTree = "<group>"; };
+		9FA7FD3F1846EE2A00A1FA9E /* brief_case@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brief_case@2x.png"; sourceTree = "<group>"; };
+		9FA7FD411846EF0400A1FA9E /* fontechProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fontechProjectsViewController.h; path = ../fontechProjectsViewController.h; sourceTree = "<group>"; };
+		9FA7FD421846EF0400A1FA9E /* fontechProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fontechProjectsViewController.m; path = ../fontechProjectsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,11 +127,11 @@
 		9FA7FD031846E98F00A1FA9E /* amourHair */ = {
 			isa = PBXGroup;
 			children = (
+				9FA7FD411846EF0400A1FA9E /* fontechProjectsViewController.h */,
+				9FA7FD421846EF0400A1FA9E /* fontechProjectsViewController.m */,
 				9FA7FD0C1846E98F00A1FA9E /* fontechAppDelegate.h */,
 				9FA7FD0D1846E98F00A1FA9E /* fontechAppDelegate.m */,
 				9FA7FD0F1846E98F00A1FA9E /* Main.storyboard */,
-				9FA7FD3C1846EC6600A1FA9E /* fontechProjectsViewController.h */,
-				9FA7FD3D1846EC6600A1FA9E /* fontechProjectsViewController.m */,
 				9FA7FD121846E98F00A1FA9E /* fontechFirstViewController.h */,
 				9FA7FD131846E98F00A1FA9E /* fontechFirstViewController.m */,
 				9FA7FD151846E98F00A1FA9E /* fontechSecondViewController.h */,
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				9FA7FD351846EAA600A1FA9E /* people_@2x.png */,
+				9FA7FD3F1846EE2A00A1FA9E /* brief_case@2x.png */,
 				9FA7FD361846EAA600A1FA9E /* photos_polaroid@2x.png */,
 				9FA7FD371846EAA600A1FA9E /* heart@2x.png */,
 			);
@@ -260,6 +263,7 @@
 				9FA7FD391846EAA600A1FA9E /* photos_polaroid@2x.png in Resources */,
 				9FA7FD081846E98F00A1FA9E /* InfoPlist.strings in Resources */,
 				9FA7FD3A1846EAA600A1FA9E /* heart@2x.png in Resources */,
+				9FA7FD401846EE2A00A1FA9E /* brief_case@2x.png in Resources */,
 				9FA7FD111846E98F00A1FA9E /* Main.storyboard in Resources */,
 				9FA7FD381846EAA600A1FA9E /* people_@2x.png in Resources */,
 			);
@@ -280,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA7FD3E1846EC6600A1FA9E /* fontechProjectsViewController.m in Sources */,
+				9FA7FD431846EF0400A1FA9E /* fontechProjectsViewController.m in Sources */,
 				9FA7FD141846E98F00A1FA9E /* fontechFirstViewController.m in Sources */,
 				9FA7FD0E1846E98F00A1FA9E /* fontechAppDelegate.m in Sources */,
 				9FA7FD171846E98F00A1FA9E /* fontechSecondViewController.m in Sources */,

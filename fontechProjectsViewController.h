@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface fontechProjectsViewController : UIViewController
+@interface fontechProjectsViewController : UITableViewController
 
 @end

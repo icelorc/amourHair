@@ -28,6 +28,8 @@
 		9FA7FD401846EE2A00A1FA9E /* brief_case@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD3F1846EE2A00A1FA9E /* brief_case@2x.png */; };
 		9FA7FD431846EF0400A1FA9E /* fontechProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7FD421846EF0400A1FA9E /* fontechProjectsViewController.m */; };
 		9FA7FD451846F7AC00A1FA9E /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD441846F7AB00A1FA9E /* fb.png */; };
+		9FA7FD491846FBA000A1FA9E /* store.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD481846FBA000A1FA9E /* store.png */; };
+		9FA7FD4B1847057400A1FA9E /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD4A1847057400A1FA9E /* cover.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		9FA7FD411846EF0400A1FA9E /* fontechProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fontechProjectsViewController.h; path = ../fontechProjectsViewController.h; sourceTree = "<group>"; };
 		9FA7FD421846EF0400A1FA9E /* fontechProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fontechProjectsViewController.m; path = ../fontechProjectsViewController.m; sourceTree = "<group>"; };
 		9FA7FD441846F7AB00A1FA9E /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		9FA7FD481846FBA000A1FA9E /* store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store.png; sourceTree = "<group>"; };
+		9FA7FD4A1847057400A1FA9E /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,8 @@
 				9FA7FD3F1846EE2A00A1FA9E /* brief_case@2x.png */,
 				9FA7FD361846EAA600A1FA9E /* photos_polaroid@2x.png */,
 				9FA7FD371846EAA600A1FA9E /* heart@2x.png */,
+				9FA7FD481846FBA000A1FA9E /* store.png */,
+				9FA7FD4A1847057400A1FA9E /* cover.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -263,11 +269,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FA7FD191846E98F00A1FA9E /* Images.xcassets in Resources */,
+				9FA7FD491846FBA000A1FA9E /* store.png in Resources */,
 				9FA7FD451846F7AC00A1FA9E /* fb.png in Resources */,
 				9FA7FD391846EAA600A1FA9E /* photos_polaroid@2x.png in Resources */,
 				9FA7FD081846E98F00A1FA9E /* InfoPlist.strings in Resources */,
 				9FA7FD3A1846EAA600A1FA9E /* heart@2x.png in Resources */,
 				9FA7FD401846EE2A00A1FA9E /* brief_case@2x.png in Resources */,
+				9FA7FD4B1847057400A1FA9E /* cover.png in Resources */,
 				9FA7FD111846E98F00A1FA9E /* Main.storyboard in Resources */,
 				9FA7FD381846EAA600A1FA9E /* people_@2x.png in Resources */,
 			);

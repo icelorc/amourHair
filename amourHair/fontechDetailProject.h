@@ -18,4 +18,6 @@ enum viewMode {
 @property (nonatomic, retain) UIImageView *imageView;
 @property (nonatomic, retain) UILabel *label;
 
+- (id)initWithFrame:(CGRect)frame viewMode:(enum viewMode)viewMode;
+
 @end

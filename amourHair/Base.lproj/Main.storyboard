@@ -99,10 +99,10 @@ General Information
             </objects>
             <point key="canvasLocation" x="1187" y="1278"/>
         </scene>
-        <!--View Controller-->
+        <!--Fontech Project Detail View Controller-->
         <scene sceneID="TMO-dd-YfL">
             <objects>
-                <viewController storyboardIdentifier="fontechProjectDetailViewController" id="CVa-aZ-wlm" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="fontechProjectDetailViewController" id="CVa-aZ-wlm" customClass="fontechProjectDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nwP-wn-k6a"/>
                         <viewControllerLayoutGuide type="bottom" id="rgr-rg-o1N"/>
@@ -115,9 +115,12 @@ General Information
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="138-KE-HdX">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="138-KE-HdX">
                                 <rect key="frame" x="20" y="43" width="280" height="438"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="CVa-aZ-wlm" id="IOX-BZ-LWu"/>
+                                </connections>
                             </scrollView>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="MwN-OT-sym">
                                 <rect key="frame" x="0.0" y="489" width="320" height="37"/>
@@ -126,6 +129,10 @@ General Information
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="pageControl" destination="MwN-OT-sym" id="hJp-zA-4NS"/>
+                        <outlet property="scrollView" destination="138-KE-HdX" id="591-He-szg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SrN-1D-sTP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "fontechProjectDetailViewController.h"
+#import "fontechDetailProject.h"
 
-@interface fontechProjectDetailViewController : UIViewController
+@interface fontechProjectDetailViewController : UIViewController <UIScrollViewDelegate, UIPageViewControllerDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 
 @end

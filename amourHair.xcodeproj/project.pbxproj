@@ -36,6 +36,8 @@
 		9FA7FD5318470E4300A1FA9E /* pyramid_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD5218470E4300A1FA9E /* pyramid_background.png */; };
 		9FA7FD561847167300A1FA9E /* fontechProjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7FD551847167300A1FA9E /* fontechProjectDetailViewController.m */; };
 		9FA7FD5918471C9200A1FA9E /* fontechDetailProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7FD5818471C9200A1FA9E /* fontechDetailProject.m */; };
+		9FA7FD5C18473D9700A1FA9E /* example1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD5A18473D9700A1FA9E /* example1.png */; };
+		9FA7FD5D18473D9700A1FA9E /* example2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7FD5B18473D9700A1FA9E /* example2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		9FA7FD551847167300A1FA9E /* fontechProjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontechProjectDetailViewController.m; sourceTree = "<group>"; };
 		9FA7FD5718471C9200A1FA9E /* fontechDetailProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontechDetailProject.h; sourceTree = "<group>"; };
 		9FA7FD5818471C9200A1FA9E /* fontechDetailProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontechDetailProject.m; sourceTree = "<group>"; };
+		9FA7FD5A18473D9700A1FA9E /* example1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example1.png; sourceTree = "<group>"; };
+		9FA7FD5B18473D9700A1FA9E /* example2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +213,8 @@
 				9FA7FD4C1847061400A1FA9E /* designer.png */,
 				9FA7FD4E18470AC100A1FA9E /* arrow.png */,
 				9FA7FD5018470B1E00A1FA9E /* hair1.png */,
+				9FA7FD5A18473D9700A1FA9E /* example1.png */,
+				9FA7FD5B18473D9700A1FA9E /* example2.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -295,8 +301,10 @@
 				9FA7FD491846FBA000A1FA9E /* store.png in Resources */,
 				9FA7FD451846F7AC00A1FA9E /* fb.png in Resources */,
 				9FA7FD391846EAA600A1FA9E /* photos_polaroid@2x.png in Resources */,
+				9FA7FD5D18473D9700A1FA9E /* example2.png in Resources */,
 				9FA7FD081846E98F00A1FA9E /* InfoPlist.strings in Resources */,
 				9FA7FD5318470E4300A1FA9E /* pyramid_background.png in Resources */,
+				9FA7FD5C18473D9700A1FA9E /* example1.png in Resources */,
 				9FA7FD3A1846EAA600A1FA9E /* heart@2x.png in Resources */,
 				9FA7FD5118470B1E00A1FA9E /* hair1.png in Resources */,
 				9FA7FD4F18470AC100A1FA9E /* arrow.png in Resources */,

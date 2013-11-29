@@ -20,4 +20,6 @@ enum viewMode {
 
 - (id)initWithFrame:(CGRect)frame viewMode:(enum viewMode)viewMode;
 
+- (void)viewMode:(enum viewMode)viewMode;
+
 @end

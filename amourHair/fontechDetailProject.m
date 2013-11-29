@@ -18,10 +18,10 @@
     self = [super initWithFrame:frame];
     if (self) {
         if (viewMode == viewModeVertical) {
-            self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 43, 280, 398)];
+            self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 43, 280, 398)];
             [self addSubview:self.imageView];
         } else {
-            self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 43, 300, 210)];
+            self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 43, 280, 210)];
             [self addSubview:self.imageView];
         }
     }
@@ -35,6 +35,19 @@
         // Initialization code
     }
     return self;
+}
+
+
+- (void)viewMode:(enum viewMode)viewMode {
+
+    if (viewMode == viewModeHorizontal) {
+        [self.imageView setFrame:CGRectMake(10, 43, 300, 210)];
+    }
+        else {
+            [self.imageView setFrame:CGRectMake(20, 43, 280, 398)];
+        
+        }
+    
 }
 
 /*

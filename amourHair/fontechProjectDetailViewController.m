@@ -47,7 +47,7 @@
         frame.origin.y = 0;
         frame.size = self.scrollView.frame.size;
         
-        fontechDetailProject *detailProject= [[fontechDetailProject alloc] initWithFrame:CGRectMake(frame.origin.x + 10, frame.origin.y + 10, self.scrollView.frame.size.width - 20, self.scrollView.frame.size.height - 10) viewMode:viewModeVertical];
+        fontechDetailProject *detailProject= [[fontechDetailProject alloc] initWithFrame:CGRectMake(frame.origin.x, frame.origin.y, self.scrollView.frame.size.width , self.scrollView.frame.size.height ) viewMode:viewModeVertical];
         detailProject.imageView.image = [UIImage imageNamed:[viewArray objectAtIndex:i]];
  
         [self.scrollView addSubview:detailProject];

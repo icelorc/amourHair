@@ -72,7 +72,19 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(7, 7, 75, 75)];
-    [imageView setImage:[UIImage imageNamed:@"hair1.png"]];
+
+    
+    if (indexPath.section == 0) {
+        [imageView setImage:[UIImage imageNamed:@"hair1.png"]];
+    } else if (indexPath.section == 1) {
+        [imageView setImage:[UIImage imageNamed:@"hair2.png"]];
+    } else if (indexPath.section == 2) {
+        [imageView setImage:[UIImage imageNamed:@"hair3.png"]];
+    } else if (indexPath.section == 3) {
+        [imageView setImage:[UIImage imageNamed:@"hair4.png"]];
+    }
+    
+    
     UIImageView *arrowImageView = [[UIImageView alloc] initWithFrame:CGRectMake(293, 22, 11, 21)];
     [arrowImageView setImage:[UIImage imageNamed:@"arrow.png"]];
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(97, 15, 40, 10)];
